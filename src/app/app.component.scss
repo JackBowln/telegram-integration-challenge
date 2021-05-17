@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  form {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 0 5px;
+    padding: 20px;
+    mat-form-field {
+      align-items: center;
+      padding: 5px 0;
+      min-width: 310px;
+    }
+    .file-input {
+      display: none;
+    }
+    .btn {
+      margin-top: 30px;
+      justify-content: flex-end;
+    }
+  }
+}
